@@ -1,0 +1,1060 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brooklinen</title>
+    <link rel="shortcut icon" type="image/png" href="icon/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c58e6a314c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="d-flex d-sm-none header_mobile">
+      <div class="header-left">
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div id="searchBtn_mobile">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <div class="header-logo">
+        <img src="/icon/logo.svg" alt="" />
+      </div>
+      <div class="header-right">
+        <div class="profile">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="cart">
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-sm-flex header_tablet">
+      <div class="header-left">
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header-logo">
+          <a href="index.html"><img src="./icon/logo.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="search-box-tablet">
+          <input
+            class="search-box-input"
+            type="search"
+            id="site-search"
+            name="q"
+            aria-label="Search through site content"
+            placeholder="Tìm kiếm sản phẩm"
+          />
+          <div id="searchBtn_tablet">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+
+        <div class="profile">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="cart">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+    <div id="search-box">
+      <button><i class="fas fa-search"></i></button>
+      <input
+        type="search"
+        id="site-search"
+        name="q"
+        aria-label="Search through site content"
+        placeholder="Tìm kiếm sản phẩm"
+      />
+      <i class="fas fa-times-circle"></i>
+    </div>
+    <div id="accordion-wrapper">
+      <div id="accordion-off"><i class="fas fa-times"></i></div>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              Nệm
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Nệm cao su</a></li>
+                <li><a href="#">Nệm lò xo</a></li>
+                <li><a href="#">Nệm bông ép</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              Chăn ga gối
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Vỏ gối</a></li>
+                <li><a href="#">Chăn</a></li>
+                <li><a href="#">Ga giường</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              Phụ kiện
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Tấm lót đệm</a></li>
+                <li><a href="#">Ruột gối nằm</a></li>
+                <li><a href="#">Ruột gối ôm</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour"
+            >
+              Combo
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Nguồn gốc sản phẩm</a></li>
+                <li><a href="savings-combo-1.html">Combo tiết kiệm 1</a></li>
+                <li><a href="savings-combo-2.html">Combo tiết kiệm 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              Thông tin
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Cách bảo quản</a></li>
+                <li><a href="#">Nguồn gốc sản phẩm</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="body">
+      <div class="hero-img">
+        <img src="./img/hero-img/1.png" alt="" />
+      </div>
+      <h1>Chăn ga gối</h1>
+      <div class="accordion-filter">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button class="accordion-header-text">BỘ LỌC</button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSix"
+              >
+                Sản phẩm
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSix"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Chăn</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Ga giường</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Vỏ gối</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeven"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseSeven"
+              >
+                Kích thước
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSeven"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Giường đơn</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Giường đôi</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Giường King</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEight"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseEight"
+              >
+                Màu sắc
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseEight"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingEight"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Pastel</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Hoa văn</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1">Rực rỡ</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Vỏ gối</h2>
+      <a href="#">Xem tất cả</a>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.1.png" alt="" />
+                <div class="slide-img-badge">new</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm cotton màu xanh nhạt</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>170.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.2.png" alt="" />
+                <div class="slide-img-badge">new</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Vỏ gối ôm satin GRAIN màu be</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>170.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.3.png" alt="" />
+                <div class="slide-img-badge">new</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Vỏ gối ôm GRAIN trắng kẻ xanh</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>250.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.4.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Vỏ gối ôm GRAIN xanh lá cây</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>180.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.5.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm GRAIN xanh nước biển</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>190.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.6.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm cotton GRAIN 2 sọc xanh</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>185.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.7.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm cotton GRAIN 2 sọc nâu</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>180.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.8.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm cotton GRAIN 2 sọc nâu đậm</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>180.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.9.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Vỏ gối ôm cotton GRAIN trắng</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>160.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.8.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm satin GRAIN trắng kẻ xanh</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>180.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.9.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Vỏ gối ôm satin GRAIN xanh</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>180.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/1.1.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Vỏ gối ôm cotton GRAIN trắng kẻ xanh</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>180.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <h2>Chăn</h2>
+      <a href="#">Xem tất cả</a>
+
+      <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.1.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton xanh dương</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.2.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton trắng sọc xanh</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.3.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn satin đủ màu</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>295.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.4.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn satin hoạ tiết màu be</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.5.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn satin hoạ tiết màu xám</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.6.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn satin hoạ tiết màu đen</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.7.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton xám tro</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.8.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton hoạ tiết</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>290.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.9.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton hoạ tiết nâu nhạt</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>290.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.1.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton xanh dương</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.5.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn satin trắng sọc xám</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/3.2.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Chăn cotton trắng sọc xanh</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>280.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <h2>Ga giường</h2>
+      <a href="#">Xem tất cả</a>
+
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="one-product-page.html"
+                ><img src="./img/products/2.1.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường vải microfiber nâu nhạt</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>390.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.2.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Ga trải giường Satin hoạ tiết</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>450.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.3.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Ga trải giường lụa sọc</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>520.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.4.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường vải đũi một màu</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>380.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.5.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường cotton xanh nhạt</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>380.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.6.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường cotton vàng nhạt</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>380.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.7.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Ga trải giường satin xanh đậm</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>420.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.8.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường satin vàng nhạt</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>380.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.5.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name"><p>Ga trải giường lụa xanh nhạt</p></div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>430.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.2.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường vải đũi hoạ tiết</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>390.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.11.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường vải đũi hoạ tiết cam</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>380.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-img">
+              <a href="#"
+                ><img src="./img/products/2.12.png" alt="" />
+                <div class="slide-img-badge">best seller</div></a
+              >
+            </div>
+            <div class="slide-content">
+              <div class="slide-name">
+                <p>Ga trải giường vải đũi hoạ tiết xanh</p>
+              </div>
+              <div class="slide-fixed">
+                <div class="slide-price"><p>380.000 đồng</p></div>
+                <button class="CTA">Cho vào giỏ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="footer-logo">
+        <a href="index.html"><img src="./icon/logo.svg" alt="" /></a>
+        <div class="social">
+          <a href="https://www.facebook.com/Brooklinen"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://twitter.com/brooklinen"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://www.instagram.com/brooklinen/"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+          <a href="https://www.pinterest.com/brooklinen/_created/"
+            ><i class="fab fa-pinterest-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-content">
+        <ul class="footer-content-list">
+          <h3>Thông tin</h3>
+          <li><a href="about.html">Về brooklinen</a></li>
+          <li><a href="products-page.html">Cửa hàng</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Hướng dẫn</a></li>
+          <li><a href="#">Đánh giá</a></li>
+        </ul>
+        <ul class="footer-content-list">
+          <h3>Hỗ trợ</h3>
+          <li><a href="#">Câu hỏi</a></li>
+          <li><a href="#">Bảo hành</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="#">Nghề nghiệp</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/header.js"></script>
+    <script src="./js/products.js"></script>
+  </body>
+</html>

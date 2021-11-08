@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Brooklinen</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./css/cart/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="./css/cart/mdb-pro.min.css" />
+    <!-- Material Design Bootstrap Ecommerce -->
+    <link rel="stylesheet" href="./css/cart/mdb.ecommerce.min.css" />
+
+    <!-- Your custom styles (optional) -->
+
+    <link rel="shortcut icon" type="image/png" href="icon/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c58e6a314c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #heading-section {
+        margin: 32px 0 24px 0;
+        line-height: 1;
+        font-size: 32px;
+      }
+      .row > * {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      @media screen and (min-width: 767px) {
+        #heading-section {
+          font-size: 48px;
+          margin-bottom: 32px;
+        }
+      }
+    </style>
+  </head>
+
+  <body style="font-size: unset" class="skin-light" aria-busy="true">
+    <!-- Header -->
+    <div class="d-flex d-sm-none header_mobile">
+      <div class="header-left">
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div id="searchBtn_mobile">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <div class="header-logo">
+        <img src="/icon/logo.svg" alt="" />
+      </div>
+      <div class="header-right">
+        <div class="profile">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="cart">
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-sm-flex header_tablet">
+      <div class="header-left">
+        <div class="menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header-logo">
+          <a href="index.html"><img src="./icon/logo.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="search-box-tablet">
+          <input
+            class="search-box-input"
+            type="search"
+            id="site-search"
+            name="q"
+            aria-label="Search through site content"
+            placeholder="Tìm kiếm sản phẩm"
+          />
+          <div id="searchBtn_tablet">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+
+        <div class="profile">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="cart">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+    <div id="search-box">
+      <button><i class="fas fa-search"></i></button>
+      <input
+        type="search"
+        id="site-search"
+        name="q"
+        aria-label="Search through site content"
+        placeholder="Tìm kiếm sản phẩm"
+      />
+      <i class="fas fa-times-circle"></i>
+    </div>
+    <div id="accordion-wrapper">
+      <div id="accordion-off"><i class="fas fa-times"></i></div>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              Nệm
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Nệm cao su</a></li>
+                <li><a href="#">Nệm lò xo</a></li>
+                <li><a href="#">Nệm bông ép</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              Chăn ga gối
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Vỏ gối</a></li>
+                <li><a href="#">Chăn</a></li>
+                <li><a href="#">Ga giường</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              Phụ kiện
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Tấm lót đệm</a></li>
+                <li><a href="#">Ruột gối nằm</a></li>
+                <li><a href="#">Ruột gối ôm</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour"
+            >
+              Combo
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Nguồn gốc sản phẩm</a></li>
+                <li><a href="savings-combo-1.html">Combo tiết kiệm 1</a></li>
+                <li><a href="savings-combo-2.html">Combo tiết kiệm 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              Thông tin
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li><a href="#">Tất cả</a></li>
+                <li><a href="#">Cách bảo quản</a></li>
+                <li><a href="#">Nguồn gốc sản phẩm</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="body">
+      <h1 id="heading-section">Giỏ hàng</h1>
+
+      <!--Main layout-->
+      <main>
+        <div class="container">
+          <!--Section: Block Content-->
+          <section class="mt-32 body" style="margin-bottom: 32px">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-8 pl-md-0 pr-md-0 padding-mobile">
+                <!-- Card -->
+                <div class="card wish-list mb-4">
+                  <div class="card-body">
+                    <h2 class="mb-4">Giỏ hàng (<span>2</span> mặt hàng)</h2>
+                    <div class="row mb-4">
+                      <div class="col-md-5 col-lg-3 col-xl-3">
+                        <div
+                          class="
+                            view
+                            zoom
+                            overlay
+                            z-depth-1
+                            rounded
+                            mb-3 mb-md-0
+                          "
+                        >
+                          <img
+                            class="img-fluid w-100"
+                            src="./img/cart/12a.jpg"
+                            alt="Sample"
+                          />
+
+                          <div class="mask waves-effect waves-light">
+                            <img
+                              alt="cart"
+                              class="img-fluid w-100"
+                              src="./img/cart/12.jpg"
+                            />
+                            <div
+                              class="
+                                mask
+                                rgba-black-slight
+                                waves-effect waves-light
+                              "
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-7 col-lg-9 col-xl-9">
+                        <div>
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <h2>Ga giường brooklinen</h2>
+                              <p class="mb-3 text-muted text-uppercase small">
+                                &nbsp;
+                              </p>
+                              <p class="mb-2 text-muted text-uppercase small">
+                                Màu sắc: Trắng ca rô
+                              </p>
+                              <p class="mb-3 text-muted text-uppercase small">
+                                Kích cỡ: L
+                              </p>
+                            </div>
+                            <div>
+                              <div
+                                class="
+                                  def-number-input
+                                  number-input
+                                  safari_only
+                                  mb-0
+                                  w-100
+                                "
+                              >
+                                <button
+                                  onclick="this.parentNode.querySelector(&#39;input[type=number]&#39;).stepDown()"
+                                  class="minus"
+                                ></button>
+                                <input
+                                  class="quantity"
+                                  min="0"
+                                  name="quantity"
+                                  value="1"
+                                  type="number"
+                                />
+                                <button
+                                  onclick="this.parentNode.querySelector(&#39;input[type=number]&#39;).stepUp()"
+                                  class="plus"
+                                ></button>
+                              </div>
+                              <small
+                                id="passwordHelpBlock"
+                                class="form-text text-muted text-center"
+                              >
+                                &nbsp;
+                              </small>
+                            </div>
+                          </div>
+                          <div
+                            class="
+                              d-flex
+                              justify-content-between
+                              align-items-center
+                            "
+                          >
+                            <div>
+                              <a
+                                type="button"
+                                class="
+                                  card-link-secondary
+                                  small
+                                  text-uppercase
+                                  mr-3
+                                "
+                                ><i class="fas fa-trash-alt mr-1"></i> Xóa MẶT
+                                HÀNG
+                              </a>
+                            </div>
+                            <p class="mb-0">
+                              <span><strong>150 000 VNĐ</strong></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mb-4" />
+                    <div class="row mb-4">
+                      <div class="col-md-5 col-lg-3 col-xl-3">
+                        <div
+                          class="
+                            view
+                            zoom
+                            overlay
+                            z-depth-1
+                            rounded
+                            mb-3 mb-md-0
+                          "
+                        >
+                          <img
+                            class="img-fluid w-100"
+                            src="./img/cart/13a.jpg"
+                            alt="Sample"
+                          />
+
+                          <div class="mask waves-effect waves-light">
+                            <img
+                              alt="cart"
+                              class="img-fluid w-100"
+                              src="./img/cart/13.jpg"
+                            />
+                            <div
+                              class="
+                                mask
+                                rgba-black-slight
+                                waves-effect waves-light
+                              "
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-7 col-lg-9 col-xl-9">
+                        <div>
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <h5>Ruột gối brooklinen</h5>
+                              <p class="mb-3 text-muted text-uppercase small">
+                                &nbsp;
+                              </p>
+                              <p class="mb-2 text-muted text-uppercase small">
+                                Màu sắc: TRẮNG
+                              </p>
+                              <p class="mb-3 text-muted text-uppercase small">
+                                Kích cỡ: M
+                              </p>
+                            </div>
+                            <div>
+                              <div
+                                class="
+                                  def-number-input
+                                  number-input
+                                  safari_only
+                                  mb-0
+                                  w-100
+                                "
+                              >
+                                <button
+                                  onclick="this.parentNode.querySelector(&#39;input[type=number]&#39;).stepDown()"
+                                  class="minus"
+                                ></button>
+                                <input
+                                  class="quantity"
+                                  min="0"
+                                  name="quantity"
+                                  value="1"
+                                  type="number"
+                                />
+                                <button
+                                  onclick="this.parentNode.querySelector(&#39;input[type=number]&#39;).stepUp()"
+                                  class="plus"
+                                ></button>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="
+                              d-flex
+                              justify-content-between
+                              align-items-center
+                            "
+                          >
+                            <div>
+                              <a
+                                type="button"
+                                class="
+                                  card-link-secondary
+                                  small
+                                  text-uppercase
+                                  mr-3
+                                "
+                                ><i class="fas fa-trash-alt mr-1"></i> Xóa mặt
+                                hàng
+                              </a>
+                            </div>
+                            <p class="mb-0">
+                              <span><strong>200 000 VNĐ</strong></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="mb-0">
+                      <i class="fas fa-info-circle mr-1"></i>Hàng khuyến
+                      mãi/giảm giá xin vui lòng không đổi trả. Xin cám ơn.
+                    </p>
+                  </div>
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <h5 class="mb-4">Thời gian giao hàng dự kiến</h5>
+
+                    <p class="mb-0">Thứ năm ngày 13/9 - Thứ ba ngày 18/9</p>
+                  </div>
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-lg-0 mb-4">
+                  <div class="card-body">
+                    <h5 class="mb-4">Chấp nhận thanh toán qua</h5>
+
+                    <img
+                      class="mr-2"
+                      width="45px"
+                      src="./img/cart/visa.svg"
+                      alt="Visa"
+                    />
+                    <img
+                      class="mr-2"
+                      width="45px"
+                      src="./img/cart/amex.svg"
+                      alt="American Express"
+                    />
+                    <img
+                      class="mr-2"
+                      width="45px"
+                      src="./img/cart/mastercard.svg"
+                      alt="Mastercard"
+                    />
+                    <img
+                      class="mr-2"
+                      width="45px"
+                      src="./img/cart/paypal.png"
+                      alt="PayPal acceptance mark"
+                    />
+                  </div>
+                </div>
+                <!-- Card -->
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-4 pr-md-0 pl-md-0 pl-lg-4">
+                <!-- Card -->
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <h2 class="mb-3">Tổng cộng</h2>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="
+                          list-group-item
+                          d-flex
+                          justify-content-between
+                          align-items-center
+                          border-0
+                          px-0
+                          pb-0
+                        "
+                      >
+                        Tạm tính
+                        <span>350 000 VNĐ</span>
+                      </li>
+                      <li
+                        class="
+                          list-group-item
+                          d-flex
+                          justify-content-between
+                          align-items-center
+                          px-0
+                        "
+                      >
+                        Phí giao hàng
+                        <span>Grab: 30 000 VNĐ</span>
+                      </li>
+                      <li
+                        class="
+                          list-group-item
+                          d-flex
+                          justify-content-between
+                          align-items-center
+                          border-0
+                          px-0
+                          mb-3
+                        "
+                      >
+                        <div>
+                          <strong>Tổng cộng</strong>
+                          <strong>
+                            <p class="mb-0">(bao gồm thuế VAT)</p>
+                          </strong>
+                        </div>
+                        <span><strong>380 000 VNĐ</strong></span>
+                      </li>
+                    </ul>
+
+                    <button
+                      type="button"
+                      class="btn btn-block waves-effect waves-light CTA"
+                    >
+                      Tiến hành thanh toán
+                    </button>
+                  </div>
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card">
+                  <div class="card-body">
+                    <a
+                      class="dark-grey-text d-flex justify-content-between"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      Mã giảm giá (tùy chọn)
+                      <span><i class="fas fa-chevron-down pt-1"></i></span>
+                    </a>
+
+                    <div class="collapse show" id="collapseExample">
+                      <div class="mt-3">
+                        <div class="md-form md-outline mb-0">
+                          <input
+                            type="text"
+                            id="discount-code"
+                            class="form-control font-weight-light"
+                            placeholder="Nhập mã tại đây"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card -->
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!--Section: Block Content-->
+        </div>
+      </main>
+      <!--Main layout-->
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-logo">
+        <a href="index.html"><img src="./icon/logo.svg" alt="" /></a>
+        <div class="social">
+          <a href="https://www.facebook.com/Brooklinen"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://twitter.com/brooklinen"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://www.instagram.com/brooklinen/"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+          <a href="https://www.pinterest.com/brooklinen/_created/"
+            ><i class="fab fa-pinterest-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-content">
+        <ul class="footer-content-list">
+          <h3>Thông tin</h3>
+          <li><a href="about.html">Về brooklinen</a></li>
+          <li><a href="products-page.html">Cửa hàng</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Hướng dẫn</a></li>
+          <li><a href="#">Đánh giá</a></li>
+        </ul>
+        <ul class="footer-content-list">
+          <h3>Hỗ trợ</h3>
+          <li><a href="#">Câu hỏi</a></li>
+          <li><a href="#">Bảo hành</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="#">Nghề nghiệp</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./js/header.js"></script>
+  </body>
+</html>

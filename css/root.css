@@ -1,0 +1,16 @@
+:root {
+  --primary: #154073;
+  --background: #f0f5f8;
+  --white-text: #fafafa;
+  --padding-btn: 5px 0;
+  --distance1: 32px;
+  --distance2: 10px;
+  --font-size1: 48px;
+  --font-size2: 40px;
+  --font-size3: 32px;
+  --hero-text-size: 2rem;
+  --head-text-size: 1.5rem;
+  --body-text-size-big: 1.2rem;
+  --body-text-size-med: 1rem;
+  --body-text-size-sml: 0.8rem;
+}
